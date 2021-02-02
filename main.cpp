@@ -4,6 +4,7 @@
 
 int main(int argc, char ** argv)
 {
+    printf("arg count: %d\n", argc);
     for(int i = 1; i < argc; i++) {
         printf("arg %d: %s\n", i, argv[i]);
     }
